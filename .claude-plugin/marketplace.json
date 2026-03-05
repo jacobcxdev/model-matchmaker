@@ -1,0 +1,30 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "jacobcxdev-plugins",
+  "version": "1.0.0",
+  "description": "Jacob Clayden's Claude Code plugins",
+  "owner": {
+    "name": "Jacob Clayden",
+    "email": "me@jacobcx.dev"
+  },
+  "plugins": [
+    {
+      "name": "model-matchmaker",
+      "description": "Effort-aware prompt routing for Claude Code. Classifies prompt complexity and injects effort guidance.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Jacob Clayden",
+        "email": "me@jacobcx.dev"
+      },
+      "source": {
+        "source": "github",
+        "repo": "jacobcxdev/model-matchmaker"
+      },
+      "homepage": "https://github.com/jacobcxdev/model-matchmaker",
+      "repository": "https://github.com/jacobcxdev/model-matchmaker",
+      "license": "MIT",
+      "keywords": ["model-routing", "effort", "cost-optimization", "prompt-classification"],
+      "category": "productivity"
+    }
+  ]
+}

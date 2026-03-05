@@ -1,0 +1,13 @@
+{
+  "name": "model-matchmaker",
+  "description": "Effort-aware prompt classification for Claude Code. Classifies prompt complexity and injects effort guidance so Claude adapts reasoning depth to task difficulty.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Jacob Clayden",
+    "email": "me@jacobcx.dev"
+  },
+  "homepage": "https://github.com/jacobcxdev/model-matchmaker",
+  "repository": "https://github.com/jacobcxdev/model-matchmaker",
+  "license": "MIT",
+  "keywords": ["effort-routing", "effort", "cost-optimization", "prompt-classification"]
+}

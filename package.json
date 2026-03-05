@@ -1,0 +1,23 @@
+{
+  "name": "model-matchmaker",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Effort-aware prompt classification for Claude Code. Classifies prompt complexity and injects effort guidance.",
+  "scripts": {
+    "build": "tsc",
+    "test": "node --experimental-transform-types --test test/*.test.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^25.3.3",
+    "typescript": "^5.7.0"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Jacob Clayden",
+    "url": "https://github.com/jacobcxdev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jacobcxdev/model-matchmaker"
+  }
+}
